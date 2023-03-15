@@ -1,0 +1,5 @@
+export type AlignType = 'start' | 'center' | 'end'
+export type TextTransformType = 'uppercase' | 'lowercase' | 'none'
+export type IconType = 'calendar' | 'rating'
+export type DirectionType = 'row' | 'column'
+export type JustifyContentType = 'start' | 'center' | 'end'
