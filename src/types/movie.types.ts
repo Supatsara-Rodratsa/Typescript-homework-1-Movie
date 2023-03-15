@@ -1,3 +1,5 @@
+import { ResponseType } from 'axios'
+
 export type MovieObject = {
   /**
    * Type out movie properties here.
@@ -25,4 +27,9 @@ type Oscar = {
 type RelatedMovie = {
   id: number
   name: string
+}
+
+export type Path = {
+  path: string
+  responseType: ResponseType
 }
